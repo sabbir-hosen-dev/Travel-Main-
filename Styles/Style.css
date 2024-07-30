@@ -82,6 +82,7 @@ p{
 .nav ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap:25px;
 }
 .nav ul li a {
@@ -91,3 +92,16 @@ p{
   color:#424247;
   transition: .3s ease;
 }
+
+@media screen and ( max-width:720px) {
+  .logo img{
+    width: 40px;
+  }
+  .logo h3{
+    font-weight:900;
+    font-size: 25px;
+  }
+  .nav ul{
+    display: none;
+  }
+} 
