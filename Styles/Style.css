@@ -93,6 +93,8 @@ p{
   transition: .3s ease;
 }
 
+/* --- responsive design ---  */
+
 @media screen and ( max-width:720px) {
   .logo img{
     width: 40px;
